@@ -1,0 +1,4 @@
+D:\C#\mqtt\M2Mqtt.Net\bin\Debug\M2Mqtt.Net.dll
+D:\C#\mqtt\M2Mqtt.Net\bin\Debug\M2Mqtt.Net.pdb
+D:\C#\mqtt\M2Mqtt.Net\obj\Debug\M2Mqtt.Net.dll
+D:\C#\mqtt\M2Mqtt.Net\obj\Debug\M2Mqtt.Net.pdb
