@@ -11,3 +11,10 @@ D:\C#\mqtt\mqtt\obj\Debug\mqtt.net.pdb
 D:\C#\mqtt.net\mqtt.net\bin\Debug\mqtt.net.exe.config
 D:\C#\mqtt.net\mqtt.net\obj\Debug\mqtt.net.exe
 D:\C#\mqtt.net\mqtt.net\obj\Debug\mqtt.net.pdb
+D:\C#\mqtt.net\mqtt.net\bin\Debug\mqtt.net.exe
+D:\C#\mqtt.net\mqtt.net\bin\Debug\mqtt.net.pdb
+D:\C#\mqtt.net\mqtt.net\bin\Debug\M2Mqtt.Net.dll
+D:\C#\mqtt.net\mqtt.net\bin\Debug\M2Mqtt.Net.pdb
+D:\C#\mqtt.net\mqtt.net\obj\Debug\mqtt.net.csprojResolveAssemblyReference.cache
+D:\C#\mqtt.net\mqtt.net\obj\Debug\mqtt.net.Properties.Resources.resources
+D:\C#\mqtt.net\mqtt.net\obj\Debug\mqtt.net.csproj.GenerateResource.Cache

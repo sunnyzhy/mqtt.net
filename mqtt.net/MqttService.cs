@@ -121,18 +121,21 @@ namespace mqtt.net
         /// </summary>
         public async void Reconnect()
         {
-            while (true)
+            await Task.Run(async () =>
             {
-                await StartReconnect();
-                try
+                while (true)
                 {
-                    Thread.Sleep(3000);
+                    await StartReconnect();
+                    try
+                    {
+                        Thread.Sleep(3000);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                    }
                 }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.Message);
-                }
-            }
+            });
         }
 
         private async Task<Boolean> StartReconnect()

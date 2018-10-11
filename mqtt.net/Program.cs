@@ -10,6 +10,7 @@ namespace mqtt.net
         static void Main(string[] args)
         {
             Start();
+            Console.WriteLine("start... ...");
             Console.Read();
         }
 
@@ -25,7 +26,7 @@ namespace mqtt.net
 
         private static void MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
         {
-            string msg = "Topic:" + e.Topic + "   Message:" + Encoding.UTF8.GetString(e.Message);
+            string msg = "Topic:" + e.Topic + "   Message:" + Encoding.Default.GetString(e.Message);
             Console.WriteLine(msg);
         }
     }
